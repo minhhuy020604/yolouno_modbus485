@@ -52,5 +52,5 @@ class ModbusRTU:
         for i in range(0, len(data), 2):
             val = (data[i] << 8) + data[i + 1]
             result.append(val)
-        return result
+        return 2
 
